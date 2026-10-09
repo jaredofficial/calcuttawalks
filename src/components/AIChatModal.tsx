@@ -1,14 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   X, Send, Compass, RotateCcw, Phone, MessageCircle, 
-  CheckCircle2, User, ChevronRight, Table, Clock, ArrowRight
+  CheckCircle2, User, ChevronRight, Clock, ArrowRight
 } from 'lucide-react';
 import { 
   playChatOpenSound, 
   playChatCloseSound, 
   playChatEnterSound 
 } from '../utils/soundEffects';
-import { GoogleSheetsModal } from './GoogleSheetsModal';
 
 interface ChatMessage {
   id: string;
@@ -34,7 +33,6 @@ const SUGGESTED_PROMPTS = [
 
 export const AIChatModal: React.FC<AIChatModalProps> = ({ onNavigate, onOpenInquire }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isSheetsModalOpen, setIsSheetsModalOpen] = useState(false);
   
   // Persistent session ID for tracking leads across turns
   const [sessionId] = useState(() => `session-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`);
@@ -397,14 +395,6 @@ export const AIChatModal: React.FC<AIChatModalProps> = ({ onNavigate, onOpenInqu
 
             <div className="flex items-center gap-1">
               <button
-                onClick={() => setIsSheetsModalOpen(true)}
-                title="Google Sheets & Leads Hub"
-                className="px-2 py-1 bg-white/10 hover:bg-[#00AA6C] text-white rounded-lg transition-colors cursor-pointer text-[10px] font-medium flex items-center gap-1"
-              >
-                <Table className="w-3 h-3 text-[#00AA6C] group-hover:text-white" />
-                <span className="hidden sm:inline">Sheets Hub</span>
-              </button>
-              <button
                 onClick={handleClearChat}
                 title="Restart conversation"
                 className="p-1.5 text-white/70 hover:text-white rounded-lg transition-colors cursor-pointer"
@@ -539,7 +529,7 @@ export const AIChatModal: React.FC<AIChatModalProps> = ({ onNavigate, onOpenInqu
 
                 {leadSubmitted ? (
                   <div className="py-3 text-center text-xs font-semibold text-[#00AA6C] flex items-center justify-center gap-1.5">
-                    <CheckCircle2 className="w-4 h-4" /> Slot inquiry registered &amp; synced to Google Sheet!
+                    <CheckCircle2 className="w-4 h-4" /> Slot inquiry registered with our Explorer Desk!
                   </div>
                 ) : (
                   <form onSubmit={handleLeadSubmit} className="space-y-2">
@@ -653,25 +643,12 @@ export const AIChatModal: React.FC<AIChatModalProps> = ({ onNavigate, onOpenInqu
                 <Send className="w-3.5 h-3.5" />
               </button>
             </form>
-            <div className="mt-1 flex items-center justify-between text-[10px] text-black/60 font-serif px-1">
+            <div className="mt-1 flex items-center justify-center text-[10px] text-black/60 font-serif px-1">
               <span>Powered by Calcutta Walks</span>
-              <button 
-                type="button" 
-                onClick={() => setIsSheetsModalOpen(true)}
-                className="text-[#00AA6C] hover:underline font-sans cursor-pointer flex items-center gap-1 font-medium"
-              >
-                <Table className="w-2.5 h-2.5" /> Google Sheet Sync Hub
-              </button>
             </div>
           </div>
         </div>
       )}
-
-      {/* Google Sheets Modal */}
-      <GoogleSheetsModal 
-        isOpen={isSheetsModalOpen} 
-        onClose={() => setIsSheetsModalOpen(false)} 
-      />
     </>
   );
 };
