@@ -1,0 +1,6 @@
+{
+  "name": "Calcutta Walks – Heritage & Cultural Tours in Kolkata",
+  "description": "Experience the living history and soulful streets of Kolkata through intimate, authentic walking and cultural tours led by passionate local Explorers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

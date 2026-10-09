@@ -1,0 +1,115 @@
+{
+  "company": {
+    "name": "Calcutta Walks",
+    "tagline": "Discovering the Soul of Kolkata Since 2007",
+    "foundedYear": 2007,
+    "founder": "Iftekhar Ahsan",
+    "phone": "+91 98301 84030",
+    "whatsapp": "+91 98301 84030",
+    "whatsappLink": "https://wa.me/919830184030",
+    "email": "explore@calcuttawalks.com",
+    "address": "9A Khairu Place, Bowbazar, Kolkata 700072 (Near Central Metro Gate 1)",
+    "sisterProperty": "Calcutta Bungalow – 1920s Restored Heritage Townhouse B&B in Shyambazar, North Kolkata"
+  },
+  "salesInstructions": {
+    "primaryGoal": "Drive all leads to text or call our operations desk at +91 98301 84030 or message on WhatsApp.",
+    "leadCapture": "Naturally ask leads for their name, phone number, and preferred date to book a slot. Once provided, confirm that our Explorer desk will reach out immediately to confirm their reservation.",
+    "unanswerableQueryResponse": "Yikes, my knowledge isn't as good as our explorers, perhaps try giving them a text or ring?"
+  },
+  "liveTourSchedules": [
+    {
+      "name": "In the Footsteps of the Raj (White Town Walk)",
+      "slug": "in-the-footsteps-of-the-raj",
+      "schedule": "Operates daily every morning",
+      "timings": "07:00 AM - 10:00 AM (Apr - Sep) / 08:00 AM - 11:00 AM (Oct - Mar)",
+      "duration": "3 Hours",
+      "priceShared": "₹2,500 per person (~$30 USD)",
+      "pricePrivate": "₹4,000 per person (~$48 USD)",
+      "meetingPoint": "Outside Air India building, Central Avenue",
+      "highlights": "Dalhousie Square (B.B.D. Bagh), Writers' Building, General Post Office, St. John's Church, Job Charnock's 1695 Mausoleum",
+      "maxGroupSize": "8 walkers maximum"
+    },
+    {
+      "name": "The Star Still Shines (Born in Bengal / Black Town Walk)",
+      "slug": "the-star-still-shines",
+      "schedule": "Operates daily every morning",
+      "timings": "07:00 AM - 10:00 AM (Apr - Sep) / 08:00 AM - 11:00 AM (Oct - Mar)",
+      "duration": "3 Hours",
+      "priceShared": "₹2,500 per person (~$30 USD)",
+      "pricePrivate": "₹4,000 per person (~$48 USD)",
+      "meetingPoint": "Girish Park Metro Station Exit No. 1",
+      "highlights": "Sovabazar Rajbari 18th-century palatial courtyards, 19th-century zamindar mansions, authentic North Kolkata adda lanes, heritage sweet shops",
+      "maxGroupSize": "8 walkers maximum"
+    },
+    {
+      "name": "Bringing the Goddess to Earth (Potters' Trail & River Life)",
+      "slug": "bringing-the-goddess-to-earth",
+      "schedule": "Operates daily every morning",
+      "timings": "07:00 AM - 10:00 AM (Apr - Sep) / 08:00 AM - 11:00 AM (Oct - Mar)",
+      "duration": "3.5 Hours",
+      "priceShared": "₹2,500 per person (~$30 USD)",
+      "pricePrivate": "₹4,000 per person (~$48 USD)",
+      "meetingPoint": "Outside North Port Police Station, Strand Road",
+      "highlights": "Mullick Ghat Flower Market, Hooghly river wrestlers, Kumartuli idol-makers sculpting Goddess Durga from Ganga clay, traditional wooden country boat crossing",
+      "maxGroupSize": "8 walkers maximum"
+    },
+    {
+      "name": "Confluence of Cultures (The Melting Pot Walk)",
+      "slug": "confluence-of-cultures",
+      "schedule": "Operates daily every morning",
+      "timings": "07:00 AM - 10:00 AM (Apr - Sep) / 08:00 AM - 11:00 AM (Oct - Mar)",
+      "duration": "3 Hours",
+      "priceShared": "₹2,500 per person (~$30 USD)",
+      "pricePrivate": "₹4,000 per person (~$48 USD)",
+      "meetingPoint": "Outside Air India building, Central Avenue",
+      "highlights": "Bow Barracks red-brick Anglo-Indian enclave, Armenian Church (1724), Magen David & Beth El Jewish Synagogues, Parsi Fire Temple, Chinese Temple, Nahoum & Sons bakery",
+      "maxGroupSize": "8 walkers maximum"
+    },
+    {
+      "name": "Dawn Calcutta Bicycle Tour",
+      "slug": "dawn-calcutta-bicycle-tour",
+      "schedule": "Operates daily at sunrise (prior booking required)",
+      "timings": "06:00 AM - 09:00 AM",
+      "duration": "3 Hours",
+      "priceShared": "₹3,500 per person (~$42 USD) including premium geared bicycle & helmet",
+      "meetingPoint": "Victoria Memorial South Gate",
+      "highlights": "Empty colonial boulevards at dawn, Maidan green lung, riverfront ghats, finishing with fresh kulhad chai and hot kachoris"
+    },
+    {
+      "name": "Cabin Food Walk",
+      "slug": "cabin-food-walk",
+      "schedule": "Operates daily (flexible slot between 10:00 AM and 10:00 PM)",
+      "timings": "Flexible 3 hours (e.g. 11:30 AM - 02:30 PM or 05:00 PM - 08:00 PM)",
+      "duration": "3 Hours",
+      "priceShared": "₹3,500 per person (~$42 USD) including all food tastings",
+      "meetingPoint": "Oberoi Grand hotel lobby, Chowringhee",
+      "highlights": "Indian Coffee House on College Street, historic wooden dining cabins, Mutton Kabiraji cutlets, fish fry, sweet kacha golla"
+    },
+    {
+      "name": "Cook as the Bongs Do (Bengali Cooking Experience)",
+      "slug": "cook-as-the-bongs-do",
+      "schedule": "Operates daily evenings (prior reservation required)",
+      "timings": "06:00 PM - 09:30 PM",
+      "duration": "3.5 Hours",
+      "priceShared": "₹4,000 per person (~$48 USD) including market shopping, cooking session & multi-course family feast",
+      "meetingPoint": "Lake Market / Jadu Babu Bazar",
+      "highlights": "Local fish & mustard seed market shopping, hands-on cooking in a traditional Bengali home, Shorshe Maach, Kosha Mangsho, Luchi, Mishti Doi"
+    },
+    {
+      "name": "Sunset Country Boat Cruise",
+      "slug": "sunset-boat-cruise",
+      "schedule": "Operates daily late afternoon",
+      "timings": "04:30 PM - 06:30 PM",
+      "duration": "2 Hours",
+      "priceShared": "₹5,000 per boat / group",
+      "meetingPoint": "Princep Ghat",
+      "highlights": "Private wooden hand-oared country boat, gliding past Howrah Bridge and Vidyasagar Setu at sunset, evening Ganga aarti"
+    }
+  ],
+  "bookingFAQ": {
+    "groupSize": "Strictly capped at maximum 8 walkers per shared departure for high intimacy and respectful local interaction.",
+    "whatIsIncluded": "Expert local storyteller guide, traditional morning breakfast/snacks, bottled mineral water, wet wipes, and all heritage monument entrance fees.",
+    "customAndPrivate": "Private departures on custom dates and times are happily accommodated. Call or WhatsApp +91 98301 84030.",
+    "howToBook": "Guests can book via the Tours Calendar page on the website, or text/call WhatsApp at +91 98301 84030 for immediate confirmation."
+  }
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "lead-1791553661197",
+    "sessionId": "session-1791553638595-kcdasp",
+    "name": "Explorer Guest",
+    "phone": "",
+    "tourName": "Cabin Food Walk",
+    "preferredDate": "Not specified",
+    "pax": "",
+    "message": "i want to book a tour\non thhe 14th\nfor the cabin food walk",
+    "source": "chatbot-conversation",
+    "createdAt": "2026-10-09T13:47:41.197Z",
+    "updatedAt": "2026-10-09T13:47:41.197Z"
+  },
+  {
+    "id": "lead-1791553638293",
+    "sessionId": "session-1791553633456-sltqq9",
+    "name": "Explorer Guest",
+    "phone": "",
+    "tourName": "Cabin Food Walk",
+    "preferredDate": "20th of the month",
+    "pax": "",
+    "message": "Can I book a Cabin Food Walk on the 20th?",
+    "source": "chatbot-conversation",
+    "createdAt": "2026-10-09T13:47:18.293Z",
+    "updatedAt": "2026-10-09T13:47:18.293Z"
+  },
+  {
+    "id": "lead-1791553633089",
+    "sessionId": "session-1791553582608-h89er1",
+    "name": "Explorer Guest",
+    "phone": "",
+    "tourName": "Cabin Food Walk",
+    "preferredDate": "20th of the month",
+    "pax": "",
+    "message": "Can I book a Cabin Food Walk on the 20th?",
+    "source": "chatbot-conversation",
+    "createdAt": "2026-10-09T13:47:13.089Z",
+    "updatedAt": "2026-10-09T13:47:13.089Z"
+  },
+  {
+    "id": "lead-jared-manuel",
+    "sessionId": "session-jared-sample",
+    "name": "Jared Manuel",
+    "phone": "9836682729",
+    "tourName": "Cabin Food Walk",
+    "preferredDate": "20th Oct",
+    "pax": "4 people",
+    "message": "Jared Manuel and my number is 9836682729 | for 4 people on the 20th | Cabin food walk",
+    "source": "chatbot-conversation",
+    "createdAt": "2026-10-09T13:05:44.831Z",
+    "updatedAt": "2026-10-09T13:18:02.041Z"
+  },
+  {
+    "id": "lead-1791549302677",
+    "sessionId": "session-aritra-sample",
+    "name": "Aritra Sen",
+    "phone": "+91 98301 11223",
+    "tourName": "White Town Walk",
+    "preferredDate": "Next Sunday 7:00 AM",
+    "pax": "2 people",
+    "message": "White Town Walk inquiry",
+    "source": "chatbot-booking-form",
+    "createdAt": "2026-10-09T12:35:02.677Z",
+    "updatedAt": "2026-10-09T12:35:02.677Z"
+  }
+]

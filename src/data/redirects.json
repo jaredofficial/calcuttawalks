@@ -1,0 +1,28 @@
+{
+  "description": "Legacy URL Redirects Mapping for calcuttawalks.com to preserve SEO equity",
+  "redirects": [
+    { "source": "/our-explorers/", "destination": "/#/story", "permanent": true },
+    { "source": "/our-philosophy/", "destination": "/#/story", "permanent": true },
+    { "source": "/testimonials/", "destination": "/#/reviews", "permanent": true },
+    { "source": "/media-coverage/", "destination": "/#/reviews", "permanent": true },
+    { "source": "/pricing/", "destination": "/#/pricing", "permanent": true },
+    { "source": "/calendar/", "destination": "/#/calendar", "permanent": true },
+    { "source": "/faq/", "destination": "/#/faq", "permanent": true },
+    { "source": "/contact/", "destination": "/#/contact", "permanent": true },
+    { "source": "/calcutta-then/", "destination": "/#/gallery", "permanent": true },
+    { "source": "/calcutta-now/", "destination": "/#/gallery", "permanent": true },
+    { "source": "/tours/in-the-footsteps-of-the-raj/", "destination": "/#/tour/in-the-footsteps-of-the-raj", "permanent": true },
+    { "source": "/tours/white-town-walk/", "destination": "/#/tour/in-the-footsteps-of-the-raj", "permanent": true },
+    { "source": "/tours/bringing-the-goddess-to-earth/", "destination": "/#/tour/bringing-the-goddess-to-earth", "permanent": true },
+    { "source": "/tours/kumartuli-walk/", "destination": "/#/tour/bringing-the-goddess-to-earth", "permanent": true },
+    { "source": "/tours/confluence-of-cultures/", "destination": "/#/tour/confluence-of-cultures", "permanent": true },
+    { "source": "/tours/melting-pot-walk/", "destination": "/#/tour/confluence-of-cultures", "permanent": true },
+    { "source": "/tours/cabin-food-walk/", "destination": "/#/tour/cabin-food-walk", "permanent": true },
+    { "source": "/tours/the-star-still-shines/", "destination": "/#/tour/the-star-still-shines", "permanent": true },
+    { "source": "/tours/black-town-walk/", "destination": "/#/tour/the-star-still-shines", "permanent": true },
+    { "source": "/tours/sailing-towards-the-goddess/", "destination": "/#/tour/sailing-towards-the-goddess", "permanent": true },
+    { "source": "/tours/cook-as-the-bongs-do/", "destination": "/#/tour/cook-as-the-bongs-do", "permanent": true },
+    { "source": "/tours/street-food-calcutta/", "destination": "/#/tour/street-food-calcutta", "permanent": true },
+    { "source": "/tours/now-thats-entertainment/", "destination": "/#/tour/now-thats-entertainment", "permanent": true }
+  ]
+}
